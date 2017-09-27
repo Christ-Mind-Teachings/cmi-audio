@@ -57,7 +57,11 @@ module.exports = function (grunt) {
 					'dist/skip-back/skip-back.js': 'src/skip-back/skip-back.js',
 					'dist/source-chooser/source-chooser.js': 'src/source-chooser/source-chooser.js',
 					'dist/speed/speed.js': 'src/speed/speed.js',
-					'dist/stop/stop.js': 'src/stop/stop.js'
+					'dist/stop/stop.js': 'src/stop/stop.js',
+					'dist/nextp/nextp.js': 'src/nextp/nextp.js',
+					'dist/prevp/prevp.js': 'src/prevp/prevp.js',
+					'dist/ptoggle/ptoggle.js': 'src/ptoggle/ptoggle.js',
+					'dist/capture/capture.js': 'src/capture/capture.js'
 				},
 				options: {
 					plugin: [
@@ -121,7 +125,11 @@ module.exports = function (grunt) {
 					'dist/skip-back/skip-back.css': 'src/skip-back/skip-back.css',
 					'dist/source-chooser/source-chooser.css': 'src/source-chooser/source-chooser.css',
 					'dist/speed/speed.css': 'src/speed/speed.css',
-					'dist/stop/stop.css': 'src/stop/stop.css'
+					'dist/stop/stop.css': 'src/stop/stop.css',
+					'dist/nextp/nextp.css': 'src/nextp/nextp.css',
+					'dist/prevp/prevp.css': 'src/prevp/prevp.css',
+					'dist/ptoggle/ptoggle.css': 'src/ptoggle/ptoggle.css',
+					'dist/capture/capture.css': 'src/capture/capture.css'
 				}
 			},
 			compressed: {
@@ -148,7 +156,11 @@ module.exports = function (grunt) {
 					'dist/skip-back/skip-back.min.css': 'dist/skip-back/skip-back.css',
 					'dist/source-chooser/source-chooser.min.css': 'dist/source-chooser/source-chooser.css',
 					'dist/speed/speed.min.css': 'dist/speed/speed.css',
-					'dist/stop/stop.min.css': 'dist/stop/stop.css'
+					'dist/stop/stop.min.css': 'dist/stop/stop.css',
+					'dist/nextp/nextp.min.css': 'dist/nextp/nextp.css',
+					'dist/prevp/prevp.min.css': 'dist/prevp/prevp.css',
+					'dist/ptoggle/ptoggle.min.css': 'dist/ptoggle/ptoggle.css',
+					'dist/capture/capture.min.css': 'dist/capture/capture.css'
 				}
 			},
 
